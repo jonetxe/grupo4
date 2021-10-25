@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejemplo</string>
+    <string name="botonlogin">LOG-IN</string>
+    <string name="crearusuario">CREATE USER</string>
+    <string name="nombre">NAME</string>
+    <string name="apellido">SURNAME</string>
+    <string name="correo">MAIL</string>
+    <string name="contrasena">PASSWORD</string>
+    <string name="direccion">ADDRESS</string>
+    <string name="telefono">PHONE NUMBER</string>
+    <string name="siguiente">NEXT</string>
+    <string name="atras">BACK</string>
+    <string name="cuenta">ACCOUNT</string>
+    <string name="home">HOME</string>
+    <string name="ajustes">SETTINGS</string>
+</resources>

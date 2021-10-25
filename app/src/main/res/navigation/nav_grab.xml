@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grab"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.ejemplo.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/crear_usuario"
+        android:name="com.example.ejemplo.crear_usuario"
+        android:label="activity_crear_usuario"
+        tools:layout="@layout/activity_crear_usuario" />
+    <fragment
+        android:id="@+id/fragment_ajustes2"
+        android:name="com.example.ejemplo.Fragment_ajustes"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+</navigation>

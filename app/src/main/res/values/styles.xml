@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FONDO"
+        parent="@android:style/TextAppearance.Medium">
+
+    </style>
+    <style name="TITULO"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textSize">150px</item>
+    </style>
+    <style name="LOGINUSER"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textSize">50px</item>
+        <item name="android:paddingLeft">280px</item>
+    </style>
+    <style name="BOTONESLOGIN"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textSize">40px</item>
+        <item name="android:background">@drawable/botones_login</item>>
+
+
+    </style>
+    <style name="FONDO2"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:backgroundTint">#636363</item>
+    </style>
+    <style name="TEXTOLOGIN"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:backgroundTint">#636363</item>
+        <item name="android:textSize">50px</item>
+    </style>
+
+</resources>
